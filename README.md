@@ -1,6 +1,6 @@
 ## <b>Webpage template</b>
 
-This webpage template was made for a [colorful ECCV paper](http://richzhang.github.io/colorization/). See how the webpage looks [here](https://richzhang.github.io/webpage-template).
+This webpage template was made for a [colorful ECCV paper](http://richzhang.github.io/colorization/). See how the webpage looks [here](https://drawm0n.github.io).
 
 To use this template, clone the repo:
 

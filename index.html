@@ -138,7 +138,7 @@
 <body>
 	<br>
 	<center>
-		<span style="font-size:38px">MeronymNet: A Hierarchical Model for Unified and Controllable Multi-Category Object Generation</span>
+		<span style="font-size:38px">DrawMon: A Distributed System for Detection of Atypical Sketch Content in Concurrent Pictionary Games</span>
 	<br>
 	<br>
 		<table align=center width=600px>
@@ -146,17 +146,22 @@
 				<tr>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px"><a href="https://notabee.github.io/">Rishabh Baghel</a></span>
+							<span style="font-size:24px"><a href="https://www.linkedin.com/in/nikhil-bansal-971262135/">Nikhil Bansal</a></span>
 						</center>
 					</td>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px"><a href="linkedin.com/in/abhishek-trivedi-108472155">Abhishek Trivedi</a></span>
+							<span style="font-size:24px"><a href="https://www.linkedin.com/in/kartik-gupta0204/">Kartik Gupta</a></span>
 						</center>
 					</td>
 					<td align=center width=10px>
 						<center>
-							<span style="font-size:24px"><a href="https://www.linkedin.com/in/tejas-ravichandran/">Tejas <br>Ravichandran</a></span>
+							<span style="font-size:24px"><a href="https://www.linkedin.com/in/kiruthika-kannan-4b0368123/">Kiruthika Kannan</a></span>
+						</center>
+					</td>
+					<td align=center width=10px>
+						<center>
+							<span style="font-size:24px"><a href="https://www.linkedin.com/in/sivani-pentapati/">Sivani Pentapati</a></span>
 						</center>
 					</td>
 					<td align=center width=100px>
@@ -171,12 +176,12 @@
 				<tr>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href=''>[Paper]</a></span>
+							<span style="font-size:24px"><a href="https://rebrand.ly/drawmon-pdf">[Paper]</a></span>
 						</center>
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href="https://github.com/atmacvit/meronymnet">[GitHub]</a></span><br>
+							<span style="font-size:24px"><a href="https://github.com/pictionary-cvit/drawmon">[GitHub]</a></span><br>
 						</center>
 					</td>
 				</tr>
@@ -189,7 +194,7 @@
 			<tr>
 				<td>
 					<center>
-						<img class="round" style="width:800px" src="./resources/meronymnet-overview-v2.png"/>
+						<img class="round" style="width:800px" src="./resources/thumbnail.jpg"/>
 					</center>
 				</td>
 			</tr>
@@ -199,12 +204,12 @@
 		<tr>
 			<td align=center width=300px>
 				<center>
-					<td><img class="round" style="width:500px;border:1px solid lightgray" src="./resources/BoxGCN-VAE.png"/></td>
+					<td><img class="round" style="width:500px;border:1px solid lightgray" src="./resources/PictGuess_architecture.png"/></td>
 				</center>
 			</td>
 			<td align=center width=300px>
 				<center>
-					<td><img class="round" style="width:500px;border:1px solid lightgray" src="./resources/LabelMap-VAE.png"/></td>
+					<td><img class="round" style="width:500px;border:1px solid lightgray" src="./resources/labelling-tool.png"/></td>
 				</center>
 			</td>
 		</tr>
@@ -213,7 +218,7 @@
 		<tr>
 			<td align=center width=400px>
 				<center>
-					<td><img class="round" style="width:500px; border:1px solid lightgray" src="./resources/cSPADE-v2.png"/></td>
+					<td><img class="round" style="width:500px; border:1px solid lightgray" src="./resources/CanvasNet.png"/></td>
 				</center>
 			</td>
 		</tr>
@@ -227,11 +232,11 @@
 		<tr>
 			<td>
 				<ul>
-					<li> We introduce MeronymNet, a novel hierarchical approach for controllable, part-based generation of multi-category objects using a single unified model. </li>
-					<li> We adopt a guided coarse-to-fine strategy involving semantically conditioned generation of bounding box layouts, pixel-level part layouts and ultimately, the object depictions themselves. </li>
-					<li> We use Graph Convolutional Networks, Deep Recurrent Networks along with custom-designed Conditional Variational Autoencoders to enable flexible, diverse and category-aware generation of 2-D objects in a controlled manner. </li>
-					<li> The performance scores for generated objects reflect MeronymNet's superior performance compared to multiple strong baselines and ablative variants. </li>
-					<li> We also showcase MeronymNet's suitability for controllable object generation and interactive object editing at various levels of structural and semantic granularity. </li>
+					<li>We introduce AtyPict - the first ever dataset of atypical whiteboard content.</li>
+					<li>We introduce CanvasNet - A model for detecting atypical sketch instances that effectively tackles the diversity in scale and appearance of various categories.</li>
+					<li>We introduce DrawMon, a distributed system for sketch content-based alert generation.</li>
+					<li>We analyze sessions with DrawMon deployed for Pictionary setting and demonstrate its effectiveness.</li>
+					<li>Our contributions serve as a design guide for developing response frameworks involving shared and interactive whiteboards.</li>		
 				</ul>	
 			</td>
 		</tr>
@@ -246,16 +251,16 @@
 	      <tr>
 				<td width="33%" valign="middle">
 				    <center>
-					<a href="https://github.com/atmacvit/meronymnet" target="_blank"
+					<a href="https://github.com/pictionary-cvit/drawmon" target="_blank"
 					   class="imageLink"><img src="./resources/Octocat.png" ,=, width="75%" /></a><br /><br />
-					<a href="https://github.com/atmacvit/meronymnet" target="_blank">Code</a>
+					<a href="https://github.com/pictionary-cvit/drawmon" target="_blank">Code</a>
 				    </center>
 				</td>
 				<td width="33%" valign="middle">
 				    <center>
-					<a href="https://drive.google.com/file/d/1NnY4tcV1wnlSWMzT_Ae6hH6v5l8GCIrX/view?usp=sharing" target="_blank"
+					<a href="https://rebrand.ly/drawmon-pdf" target="_blank"
 					   class="imageLink"><img src="./resources/Paper_crop.png" ,=, width="75%" /></a><br /><br />
-					<a href="https://drive.google.com/file/d/1NnY4tcV1wnlSWMzT_Ae6hH6v5l8GCIrX/view?usp=sharing" target="_blank">Paper</a>
+					<a href="https://rebrand.ly/drawmon-pdf" target="_blank">Paper</a>
 				    </center>
 
 				</td>

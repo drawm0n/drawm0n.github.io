@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DrawMon</title>
+  <meta name="description" content="DrawMon">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/">
+<link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
+
+
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+
+    <a class="navbar-brand" href="http://localhost:4000/">DrawMon</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://localhost:4000/">Home</a></li>
+		<!-- <li><a href="http://localhost:4000/publications">Publications</a></li>
+		<li><a href="http://localhost:4000/projects">Projects</a></li>
+		<li><a href="http://localhost:4000/experience">Experience</a></li>
+		<li><a href="https://sid2697.github.io/Blog_Sid">Blog</a></li> -->
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="gridid" class="col-sm-12">
+  <h2 align="center">DrawMon:<br />A Distributed System for Detection of Atypical Sketch Content in Concurrent Pictionary Games</h2>
+
+<p style="text-align: center;">
+<a href="https://www.linkedin.com/in/nikhil-bansal-971262135/" style="color: #CC0000"> Nikhil Bansal</a>
+      
+<a href="https://www.linkedin.com/in/kartik-gupta0204/" style="color: #CC0000"> Kartik Gupta</a>
+      
+<a href="https://www.linkedin.com/in/kiruthika-kannan-4b0368123/" style="color: #CC0000"> Kiruthika Kannan</a>
+      
+<a href="https://www.linkedin.com/in/sivani-pentapati/" style="color: #CC0000"> Sivani Pentapati</a>
+      
+<a href="https://ravika.github.io" style="color: #CC0000"> Ravi Kiran Sarvadevabhatla</a>
+      
+</p>
+<p style="text-align: center;"><a href="https://2022.acmmm.org/" style="color:#CC0000">ACMMM 2022</a></p>
+
+<p style="text-align: center;">
+
+<a href="https://rebrand.ly/drawmon-pdf" class="btn">Paper</a>
+      
+
+<a href="https://iiitaphyd-my.sharepoint.com/:f:/g/personal/nikhil_bansal_research_iiit_ac_in/EsSdjnL7hadFiGgLlCok5JIBjOWN_BuE3wG9Yu0hBu360Q?e=CgKGI7" class="btn">Dataset</a>
+      
+
+<a href="https://github.com/pictionary-cvit/drawmon" class="btn">Code</a>
+      
+
+</p>
+
+<h3>What is atypical sketch content and why do we need to detect them?</h3>
+<div style="text-align: justify">
+  <p>Pictionary, the popular sketch-based game forbids drawer from writing text(atypical content) on canvas. 
+Intervention of such rule violations is impractical and not scalable in web-based online setting of this game involving large number of multiple concurrent sessions.
+Apart from malicious game play, atypical sketch content can also exist in non-malicious, benign scenarios. 
+For instance, the Drawer may choose to draw arrows and other such icons to attract the Guesser’s attention and provide indirect hints regarding the target word. Accurately localizing such activities can aid statistical learning approaches which associate sketch-based representations with corresponding target words.</p>
+
+  <h4>  AtyPict- the first ever dataset of atypical whiteboard content</h4>
+  <p>The categories of atypical content usually encountered in Pictionary sessions are:</p>
+  <ul>
+    <li>Text: Drawer directly writes the target word or hints related to the target word on the canvas.</li>
+    <li>Numerical: Drawer writes numbers on canvas.</li>
+    <li>Circles: Drawers often circle a portion of the canvas to emphasize relevant or important content.</li>
+    <li>Iconic: Other items used for emphasizing content and abstract compositional structures include drawing a question mark, arrow and other miscellaneous structures (e.g. double-headed arrow, tick marks, addition symbol, cross) and striking out the sketch (which usually implies negation of thesketched item).</li>
+  </ul>
+  <center>
+<figure>
+		<div id="projectid">
+    <img src="http://localhost:4000/images/projectpic/Multiclass_Samples.jpeg" width="900px" />
+		</div>
+    <p>&nbsp;</p>
+    <figcaption>
+        Examples of atypical content detection. False negatives are shown as dashed rectangles and false positives as dotted rectangles. Color codes are: <span style="color:red">text</span>, <span style="color:cyan">numbers</span>, <span style="color:green">question marks</span>, <span style="color:blue">arrows</span>, <span style="color:maroon">circles</span> and other <span style="color:orange">icons</span> (e.g. tick marks, addition symbol).
+    </figcaption>
+</figure>
+<figure>
+		<div id="projectid">
+    <img src="http://localhost:4000/images/projectpic/pictdraw.png" width="900px" />
+		</div>
+    <p>&nbsp;</p>
+    <figcaption>
+        Screenshots of our data collection tool showing Drawer (left) and Guesser (right) activity during a Pictionary game. In this case, the Drawer has violated the game rules by writing text (`Spiderm') on the canvas. An automatic alert notifying the player (see top left of screenshot) and identifying the text location (red box on canvas) is generated by our system DrawMon.
+    </figcaption>
+</figure>
+<figure>
+		<div id="projectid">
+    <img src="http://localhost:4000/images/projectpic/labelling-tool.png" width="900px" />
+		</div>
+    <p>&nbsp;</p>
+    <figcaption>
+        An illustration of annotation using our Canvas-Dash interface.
+    </figcaption>
+</figure>
+</center>
+
+  <h3>DrawMon, a distributed system for sketchcontent-based alert generation</h3>
+  <p>DrawMon - a distributed alert generation system (see figure below). Each game session is managed by a central Session Manager which assigns a unique session id.</p>
+  <ul>
+    <li>For a given session, whenever a sketch stroke is drawn, the accumulated canvas content (i.e. strokes rendered so far) is tagged with session id and relayed to a shared Session Canvas Queue.</li>
+    <li>For efficiency, the canvas content is represented as a lightweight Scalable Vector Graphic (SVG) object. The contents of the Session Canvas Queue are dequeued and rendered into corresponding 512×512 binary images by Distributed Rendering Module in a distributed and parallel fashion.</li>
+    <li>The rendered binary images tagged with session id are placed in the Rendered Image Queue. The contents of Rendered Image Queue are dequeued and processed by Distributed Detection Module. Each Detection module consists of our custom-designed deep neural network CanvasNet.</li>
+  </ul>
+  <center>
+<figure>
+		<div id="projectid">
+    <img src="http://localhost:4000/images/projectpic/PictGuess_architecture.png" width="900px" />
+		</div>
+    <p>&nbsp;</p>
+    <figcaption>
+        A pictorial overview of DrawMon- our distributed atypical sketch content response system.
+    </figcaption>
+</figure>
+</center>
+
+  <h3> CanvasNet: a model for detecting atypical sketch instances </h3>
+
+  <p>CanvasNet processes the rendered image as input and outputs a list of atypical activities (if any) along with associated meta-information (atypical content category, 2-D spatial location).</p>
+  <center>
+<figure>
+		<div id="projectid">
+    <img src="http://localhost:4000/images/projectpic/CanvasNet.png" width="900px" />
+		</div>
+    <p>&nbsp;</p>
+    <figcaption>
+        Architecture of CanvasNet deep neural network.
+    </figcaption>
+</figure>
+</center>
+
+  <h3 id="download"><span style="color:DodgerBlue">Downloads</span></h3>
+  <p> </p>
+  <p>We recommend referring to the <a href="https://github.com/Sid2697/EgoProceL-egocentric-procedure-learning/blob/main/EgoProceL-download-README.md">README</a> before downloading the videos. <a href="http://cvit.iiit.ac.in/research/projects/cvit-projects/egoprocel">Mirror link</a>.</p>
+
+  <h4> Videos </h4>
+
+  <p>Link: <a href="https://iiitaphyd-my.sharepoint.com/:f:/g/personal/siddhant_bansal_research_iiit_ac_in/Ev14SL5JYtJNpVUUAhDMgEABbPnTYpbDUzBYAhQToyHmVw?e=cQu5by">OneDrive</a></p>
+
+  <h4> Annotations </h4>
+
+  <p>Link: <a href="https://iiitaphyd-my.sharepoint.com/:f:/g/personal/siddhant_bansal_research_iiit_ac_in/EgqvXb5syepDv1z-UAwsYEQBivEYauz8tuotty7eey32Ng?e=TNXpBE">OneDrive</a></p>
+
+</div>
+<p> </p>
+
+<h3> Paper </h3>
+
+<ul>
+  <li>PDF: <a href="http://localhost:4000/papers/Procedure_Learning_from_Egocentric_Videos_camera-ready_v1-5_2022-07-20.pdf">Paper</a>; <a href="http://localhost:4000/papers/Supplementary-Procedure_Learning_from_Egocentric_Videos_camera-ready_v1-4_2022-07-19.pdf">Supplementary</a></li>
+  <li>arXiv: <a href="https://arxiv.org/pdf/2207.10883">Paper</a>; <a href="http://arxiv.org/abs/2207.10883">Abstract</a></li>
+  <li>ECCV: <b>Coming soon!</b></li>
+</ul>
+
+<h3> Code </h3>
+<p>The code for this work is available on GitHub!<br />Link: <a href="https://github.com/Sid2697/EgoProceL-egocentric-procedure-learning">Sid2697/EgoProceL-egocentric-procedure-learning</a></p>
+
+<h3> Acknowledgements </h3>
+
+<p style="text-align: justify">
+This work was supported in part by the Department of Science and Technology, Government of India, under DST/ICPS/Data-Science project ID T-138. A portion of the data used in this paper was obtained from <a href="http://kitchen.cs.cmu.edu/">kitchen.cs.cmu.edu</a> and the data collection was funded in part by the National Science Foundation under Grant No. EEEC-0540865. We acknowledge <a href="https://scholar.google.com/citations?user=k4TZSPQAAAAJ&amp;hl=en">Pravin Nagar</a> and <a href="https://sagarverma.github.io/">Sagar Verma</a> for recording and sharing the PC Assembly and Disassembly videos at IIIT Delhi. We also acknowledge <a href="https://www.linkedin.com/in/jehlum-pandit/">Jehlum Vitasta Pandit</a> and <a href="https://contemplationanddeepthoughts.home.blog/">Astha Bansal</a> for their help with annotating a portion of EgoProceL.
+</p>
+
+<p> </p>
+
+<p>Please consider citing the following works if you make use of the EgoProceL dataset:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@InProceedings{EgoProceLECCV2022,
+author="Bansal, Siddhant
+and Arora, Chetan
+and Jawahar, C.V.",
+title="My View is the Best View: Procedure Learning from Egocentric Videos",
+booktitle = "European Conference on Computer Vision (ECCV)",
+year="2022"
+}
+
+@InProceedings{CMU_Kitchens,
+author = "De La Torre, F. and Hodgins, J. and Bargteil, A. and Martin, X. and Macey, J. and Collado, A. and Beltran, P.",
+title = "Guide to the Carnegie Mellon University Multimodal Activity (CMU-MMAC) database.",
+booktitle = "Robotics Institute",
+year = "2008"
+}
+
+@InProceedings{egtea_gaze_p,
+author = "Li, Yin and Liu, Miao and Rehg, James M.",
+title =  "In the Eye of Beholder: Joint Learning of Gaze and Actions in First Person Video",
+booktitle = "European Conference on Computer Vision (ECCV)",
+year = "2018"
+}
+
+@InProceedings{meccano,
+    author    = "Ragusa, Francesco and Furnari, Antonino and Livatino, Salvatore and Farinella, Giovanni Maria",
+    title     = "The MECCANO Dataset: Understanding Human-Object Interactions From Egocentric Videos in an Industrial-Like Domain",
+    booktitle = "Winter Conference on Applications of Computer Vision (WACV)",
+    year      = "2021"
+}
+
+@InProceedings{tent,
+author = "Jang, Youngkyoon and Sullivan, Brian and Ludwig, Casimir and Gilchrist, Iain and Damen, Dima and Mayol-Cuevas, Walterio",
+title = "EPIC-Tent: An Egocentric Video Dataset for Camping Tent Assembly",
+booktitle = "International Conference on Computer Vision (ICCV) Workshops",
+year = "2019"
+}
+</code></pre></div></div>
+
+<p> </p>
+<p> </p>
+
+</div>
+
+      </div>
+    </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-5">
+
+		  <p>&copy 2022 Nikhil Bansal. Site made with <a href="https://jekyllrb.com">Jekyll</a>.</p>
+		   <p>  </p><p>
+
+
+		</div>
+		<div class="col-sm-5">
+		</div>
+    <div class="col-sm-5">
+		</div>
+		<div class="col-sm-5">
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>

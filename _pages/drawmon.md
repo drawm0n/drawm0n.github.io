@@ -61,6 +61,7 @@ The categories of atypical content usually encountered in Pictionary sessions ar
         Examples of atypical content detection. False negatives are shown as dashed rectangles and false positives as dotted rectangles. Color codes are: <span style="color:red">text</span>, <span style="color:cyan">numbers</span>, <span style="color:green">question marks</span>, <span style="color:blue">arrows</span>, <span style="color:maroon">circles</span> and other <span style="color:orange">icons</span> (e.g. tick marks, addition symbol).
     </figcaption>
 </figure>
+
 <figure>
 		<div id="projectid">
     <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/pictdraw.png" width="900px" />
@@ -77,6 +78,15 @@ The categories of atypical content usually encountered in Pictionary sessions ar
     <p>&nbsp;</p>
     <figcaption>
         An illustration of annotation using our Canvas-Dash interface.
+    </figcaption>
+</figure>
+<figure>
+        <div id="projectid">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/projectpic/atypict_stats2.png" width="900px" />
+        </div>
+    <p>&nbsp;</p>
+    <figcaption>
+        The distribution of atypical content categories show significant imbalance with category 'Individual letters' occurring more often than others.
     </figcaption>
 </figure>
 </center>

@@ -141,60 +141,34 @@ Link: [OneDrive](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/siddhant_ban
 [comment]: Paper
 <h3> Paper </h3>
 
-- PDF: <a href="{{ site.url }}{{ site.baseurl }}/papers/Procedure_Learning_from_Egocentric_Videos_camera-ready_v1-5_2022-07-20.pdf">Paper</a>; <a href="{{ site.url }}{{ site.baseurl }}/papers/Supplementary-Procedure_Learning_from_Egocentric_Videos_camera-ready_v1-4_2022-07-19.pdf">Supplementary</a>
-- arXiv: [Paper](https://arxiv.org/pdf/2207.10883); [Abstract](http://arxiv.org/abs/2207.10883)
-- ECCV: <b>Coming soon!</b>
+- PDF: <a href="https://rebrand.ly/drawmon-pdf">Paper</a>
+- arXiv: <b>Coming soon!</b>
+- ACMMM-2022: <b>Coming soon!</b>
 
 [comment]: Code
 <h3> Code </h3>
-The code for this work is available on GitHub!<br>Link: <a href="https://github.com/Sid2697/EgoProceL-egocentric-procedure-learning">Sid2697/EgoProceL-egocentric-procedure-learning</a>
+The code for this work is available on GitHub!<br>Link: <a href="https://github.com/pictionary-cvit/drawmon">pictionary-cvit/drawmon</a>
 
+</br>
 <h3> Acknowledgements </h3>
-
 <p style="text-align: justify">
-This work was supported in part by the Department of Science and Technology, Government of India, under DST/ICPS/Data-Science project ID T-138. A portion of the data used in this paper was obtained from <a href="http://kitchen.cs.cmu.edu/">kitchen.cs.cmu.edu</a> and the data collection was funded in part by the National Science Foundation under Grant No. EEEC-0540865. We acknowledge <a href="https://scholar.google.com/citations?user=k4TZSPQAAAAJ&hl=en">Pravin Nagar</a> and <a href="https://sagarverma.github.io/">Sagar Verma</a> for recording and sharing the PC Assembly and Disassembly videos at IIIT Delhi. We also acknowledge <a href="https://www.linkedin.com/in/jehlum-pandit/">Jehlum Vitasta Pandit</a> and [Astha Bansal](https://contemplationanddeepthoughts.home.blog/) for their help with annotating a portion of EgoProceL.
+We wish to acknowledge grant from KCIS - TCS foundation.
 </p>
 
 <p>&nbsp;</p>
 
-Please consider citing the following works if you make use of the EgoProceL dataset:
+Please consider citing the following works if you make use of our work:
 
 ```
-@InProceedings{EgoProceLECCV2022,
-author="Bansal, Siddhant
-and Arora, Chetan
-and Jawahar, C.V.",
-title="My View is the Best View: Procedure Learning from Egocentric Videos",
-booktitle = "European Conference on Computer Vision (ECCV)",
+@InProceedings{DrawMonACMMM2022,
+author="Bansal, Nikhil
+and Gupta, Kartik
+and Kannan, Kiruthika
+and Pentapati, Sivani
+and Sarvadevabhatla, Ravi Kiran",
+title="DrawMon: A Distributed System for Detection of Atypical Sketch Content in Concurrent Pictionary Games",
+booktitle = "ACM conference on Multimedia (ACMMM)",
 year="2022"
-}
-
-@InProceedings{CMU_Kitchens,
-author = "De La Torre, F. and Hodgins, J. and Bargteil, A. and Martin, X. and Macey, J. and Collado, A. and Beltran, P.",
-title = "Guide to the Carnegie Mellon University Multimodal Activity (CMU-MMAC) database.",
-booktitle = "Robotics Institute",
-year = "2008"
-}
-
-@InProceedings{egtea_gaze_p,
-author = "Li, Yin and Liu, Miao and Rehg, James M.",
-title =  "In the Eye of Beholder: Joint Learning of Gaze and Actions in First Person Video",
-booktitle = "European Conference on Computer Vision (ECCV)",
-year = "2018"
-}
-
-@InProceedings{meccano,
-    author    = "Ragusa, Francesco and Furnari, Antonino and Livatino, Salvatore and Farinella, Giovanni Maria",
-    title     = "The MECCANO Dataset: Understanding Human-Object Interactions From Egocentric Videos in an Industrial-Like Domain",
-    booktitle = "Winter Conference on Applications of Computer Vision (WACV)",
-    year      = "2021"
-}
-
-@InProceedings{tent,
-author = "Jang, Youngkyoon and Sullivan, Brian and Ludwig, Casimir and Gilchrist, Iain and Damen, Dima and Mayol-Cuevas, Walterio",
-title = "EPIC-Tent: An Egocentric Video Dataset for Camping Tent Assembly",
-booktitle = "International Conference on Computer Vision (ICCV) Workshops",
-year = "2019"
 }
 ```
 

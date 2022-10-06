@@ -149,7 +149,7 @@ Link: [OneDrive](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/siddhant_ban
 <h3> Code </h3>
 The code for this work is available on GitHub!<br>Link: <a href="https://github.com/pictionary-cvit/drawmon">pictionary-cvit/drawmon</a>
 
-</br>
+
 <h3> Acknowledgements </h3>
 <p style="text-align: justify">
 We wish to acknowledge grant from KCIS - TCS foundation.

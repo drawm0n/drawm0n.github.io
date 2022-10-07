@@ -123,18 +123,6 @@ CanvasNet processes the rendered image as input and outputs a list of atypical a
 </figure>
 </center>
 
-<h3 id="download"><span style="color:DodgerBlue">Downloads</span></h3>
-<p>&nbsp;</p>
-We recommend referring to the [README](https://github.com/Sid2697/EgoProceL-egocentric-procedure-learning/blob/main/EgoProceL-download-README.md) before downloading the videos. [Mirror link](http://cvit.iiit.ac.in/research/projects/cvit-projects/egoprocel).
-
-<h4> Videos </h4>
-
-Link: [OneDrive](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/siddhant_bansal_research_iiit_ac_in/Ev14SL5JYtJNpVUUAhDMgEABbPnTYpbDUzBYAhQToyHmVw?e=cQu5by)
-
-<h4> Annotations </h4>
-
-Link: [OneDrive](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/siddhant_bansal_research_iiit_ac_in/EgqvXb5syepDv1z-UAwsYEQBivEYauz8tuotty7eey32Ng?e=TNXpBE)
-
 </div>
 <p>&nbsp;</p>
 

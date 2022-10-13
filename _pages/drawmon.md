@@ -32,7 +32,7 @@ permalink: /
 [Dataset](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/nikhil_bansal_research_iiit_ac_in/EsSdjnL7hadFiGgLlCok5JIBjOWN_BuE3wG9Yu0hBu360Q?e=CgKGI7){: .btn}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[Code](https://github.com/pictionary-cvit/drawmon){: .btn}
+[Code](https://github.com/pictionary-cvit/drawmon/tree/without_memcache){: .btn}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </p>
@@ -168,7 +168,7 @@ CanvasNet processes the rendered image as input and outputs a list of atypical a
 
 [comment]: Code
 <h3> Code </h3>
-The code for this work is available on GitHub!<br>Link: <a href="https://github.com/pictionary-cvit/drawmon">pictionary-cvit/drawmon</a>
+The code for this work is available on GitHub!<br>Link: <a href="https://github.com/pictionary-cvit/drawmon/tree/without_memcache">pictionary-cvit/drawmon</a>
 
 
 <h3> Acknowledgements </h3>

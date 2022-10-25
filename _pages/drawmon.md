@@ -38,13 +38,16 @@ permalink: /
 </p>
 <center>
 <div class="embed-container">
-  <iframe
+  <!-- <iframe
       src="https://www.youtube.com/embed/LAYk2XGwCoI"
       width="700"
       height="480"
       frameborder="0"
       allowfullscreen="true">
-  </iframe>
+  </iframe> -->
+  <video width="70%" preload="auto" muted controls>
+    <source src="{{ site.url }}{{ site.baseurl }}/images/projectpic/PPTDrawMon.mp4" type="video/mp4">
+    </video>
 </div>
 </center>
 
@@ -65,13 +68,16 @@ Pictionary is a popular casual social game played by people of all age groups. I
     </figcaption>
 </figure> -->
 <div class="embed-container">
-  <iframe
+  <!-- <iframe
       src="https://www.youtube.com/embed/2FHvXF5sXNw"
       width="700"
       height="480"
       frameborder="0"
       allowfullscreen="true">
-  </iframe>
+  </iframe> -->
+  <video width="70%" preload="auto" muted controls>
+    <source src="{{ site.url }}{{ site.baseurl }}/images/projectpic/targetPhrase_sweater_drawer.mp4" type="video/mp4">
+    </video>
   <p>&nbsp;</p>
   <figcaption>
         An example game session from our data collection tool
@@ -133,7 +139,7 @@ The categories of atypical content usually encountered in Pictionary sessions ar
       frameborder="0"
       allowfullscreen="true">
   </iframe> -->
-  <video width="100%" preload="auto" muted controls>
+  <video width="70%" preload="auto" muted controls>
     <source src="{{ site.url }}{{ site.baseurl }}/images/projectpic/CanvasDash-demo.mp4" type="video/mp4">
     </video>
   <p>&nbsp;</p>
@@ -191,12 +197,12 @@ DrawMon - a distributed alert generation system (see figure below). Each game se
 <h3>DrawMon in Action</h3>
 <center>
 <div class="embed-container">
- <iframe
+ <!-- <iframe
       src="https://www.youtube.com/embed/Cpq_9Opb9I0"
       width="30%"
       frameborder="0"
       allowfullscreen="true">
-  </iframe>
+  </iframe> -->
   <!--  <figcaption>
         DrawMon in Action
     </figcaption> -->
@@ -209,9 +215,15 @@ DrawMon - a distributed alert generation system (see figure below). Each game se
     <source src="{{ site.url }}{{ site.baseurl }}/images/projectpic/targetPhrase_lazy_drawer.mp4" type="video/mp4">
     </video>
  -->
- <iframe src="https://iiitaphyd-my.sharepoint.com/personal/nikhil_bansal_research_iiit_ac_in/_layouts/15/embed.aspx?UniqueId=f6a66575-86c9-4b59-9569-e7f061103043&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=OneUpFileViewer&referrerScenario=EmbedDialog.Create" width="30%" frameborder="0" scrolling="no" allowfullscreen title="targetPhrase_lazy_drawer.mp4"></iframe>
+ <!-- <iframe src="https://iiitaphyd-my.sharepoint.com/personal/nikhil_bansal_research_iiit_ac_in/_layouts/15/embed.aspx?UniqueId=f6a66575-86c9-4b59-9569-e7f061103043&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=OneUpFileViewer&referrerScenario=EmbedDialog.Create" width="30%" frameborder="0" scrolling="no" allowfullscreen title="targetPhrase_lazy_drawer.mp4"></iframe> -->
   <video width="30%" preload="auto" muted controls>
     <source src="{{ site.url }}{{ site.baseurl }}/images/projectpic/targetPhrase_passport_drawer.mp4" type="video/mp4">
+    </video>
+    <video width="30%" preload="auto" muted controls>
+    <source src="{{ site.url }}{{ site.baseurl }}/images/projectpic/targetPhrase_lazy_drawer.mp4" type="video/mp4">
+    </video>
+    <video width="30%" preload="auto" muted controls>
+    <source src="{{ site.url }}{{ site.baseurl }}/images/projectpic/targetPhrase_tattoo_drawer.mp4" type="video/mp4">
     </video>
 </div>
 </center>

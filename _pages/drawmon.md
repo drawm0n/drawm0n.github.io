@@ -223,7 +223,7 @@ DrawMon - a distributed alert generation system (see figure below). Each game se
     <source src="{{ site.url }}{{ site.baseurl }}/images/projectpic/targetPhrase_lazy_drawer.mp4" type="video/mp4">
     </video>
     <video width="30%" preload="auto" muted controls>
-    <source src="{{ site.url }}{{ site.baseurl }}/images/projectpic/ttargetPhrase_clean_drawer.mp4" type="video/mp4">
+    <source src="{{ site.url }}{{ site.baseurl }}/images/projectpic/targetPhrase_clean_drawer.mp4" type="video/mp4">
     </video>
 </div>
 </center>

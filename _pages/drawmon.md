@@ -29,7 +29,7 @@ permalink: /
 [Paper](https://rebrand.ly/drawmon-pdf){: .btn}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-[Dataset](https://iiitaphyd-my.sharepoint.com/:f:/g/personal/nikhil_bansal_research_iiit_ac_in/EsSdjnL7hadFiGgLlCok5JIBjOWN_BuE3wG9Yu0hBu360Q?e=CgKGI7){: .btn}
+[Dataset](https://zenodo.org/record/7330402#.Y3YgFHZBy3B){: .btn}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 [Code](https://github.com/pictionary-cvit/drawmon/tree/without_memcache){: .btn}

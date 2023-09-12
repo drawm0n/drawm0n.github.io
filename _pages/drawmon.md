@@ -26,7 +26,7 @@ permalink: /
 
 <p style="text-align: center;">
 
-[Paper](https://rebrand.ly/drawmon-pdf){: .btn}
+[Paper](https://arxiv.org/abs/2211.05429){: .btn}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 [Dataset](https://zenodo.org/record/7330402#.Y3YgFHZBy3B){: .btn}
